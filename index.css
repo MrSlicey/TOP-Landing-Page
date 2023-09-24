@@ -7,7 +7,7 @@
 }
 .header{
     display: flex;
-    border: 5px red solid;
+    /* border: 5px red solid; */
     margin: 0 15%;
     justify-content:space-between;
     font-family:sans-serif;
@@ -16,7 +16,7 @@
     font-size:24px;
     color: #f9faf8;
     padding-top: 15px;
-    margin-left: 11.75%;
+    margin-left: 13.75%;
 }
 .links{
     font-size: 18px;
@@ -27,7 +27,7 @@
 }
 .hero{
     display: flex;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     margin: 5% 15%;
     justify-content: center;
 }
@@ -37,7 +37,7 @@
 }
 .head, .placeholder{
     min-width: 36%;
-    margin: 0.5%;
+    margin: 0.2%;
     font-family: sans-serif;
 }
 .hero-title{
@@ -56,6 +56,8 @@
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
+    font-size: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 .hero-button{
     width: 25%;
