@@ -69,4 +69,44 @@
     font-size: 22px;
 
 }
+.body2{
+    background:white;
+    text-align: center;  
+    font-size:36px;
+    color: #1f2937;
+    font-weight: 600;
+     border: 5px white solid; 
+    font-family: sans-serif;
+}
+.picboxes{
+    background: white;
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.textboxes{
+    background: white;
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.picbox{
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid 5px;
+    border-radius: 20px;
+}.textboxes>p{
+    width: 200px;
+    font-size:22px;
+    /* border: 5px red solid; */
+    margin-top: 0;
+    text-align: center;
+    
+}
+.minor-header{
+    
+    font-size: 36px;
+}
 
