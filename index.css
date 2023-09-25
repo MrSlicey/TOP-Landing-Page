@@ -83,14 +83,14 @@
     /* border: 5px red solid; */
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 80px;
 }
 .textboxes{
     background: white;
     /* border: 5px red solid; */
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 90px;
 }
 .picbox{
     width: 200px;
@@ -151,8 +151,8 @@
     background-color: #3882f6;
     display: flex;
     width: 50%;
-    border-radius: 15px;
-    padding: 20px 25px;
+    border-radius: 5px;
+    padding: 50px 40px;
     margin:150px auto ;
 }
 .cta-text-box{
@@ -175,8 +175,10 @@
     align-content: center;
     width: 40%;
     margin-right: 10%;
+    
 }
 .cta-button{
+    color: #F9FAF8 ;
  font-size:16px;
  font-weight: 800;
  background-color: #3882f6;
@@ -191,4 +193,15 @@
 .cta-button:hover{
     background-color: #F9FAF8;
     transition: 1s;
+}
+/* Footer */
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+.copyright{
+    font-size: 18px;
+    padding: 20px;
 }
